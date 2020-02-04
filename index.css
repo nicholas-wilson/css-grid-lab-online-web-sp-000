@@ -9,9 +9,7 @@ body {
   width: 100vw;
   /* your properties here */
   display: grid;
-
-  grid-auto-rows: 50px;
-  grid-gap: 1.5%;
+  grid-template: [header-start] 1fr [header-end] 1fr 1fr 1fr / 1fr 1fr 1fr;
 }
 
 .grid-item {
